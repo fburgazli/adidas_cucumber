@@ -6,13 +6,13 @@ Feature: Adidas add/delete/purchase an item feature
     And Customer clicks on Sony vaio i5
     Then Customer clicks on Add to cart and accepts pop up confirmation
 
-  Scenario:
+  Scenario: Adding another item to the cart.
     Given Customer is on home page
     When Customer navigates to Laptop category
     And Customer clicks on Dell i7 8gb
     Then Customer clicks on Add to cart and accepts pop up confirmation
 
-  Scenario:
+  Scenario: Deleting an item and completing the purchase
     Given Customer navigates to Cart
     And Customer deletes Dell i7 8gb
     When Customer clicks on Place order
